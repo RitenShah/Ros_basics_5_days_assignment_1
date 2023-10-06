@@ -1,0 +1,12 @@
+<launch>
+    <!-- Launch your drone motion service server -->
+    <node name="service_server" pkg="basics_exam" type="distance_motion_service.py" />
+
+    <!-- Launch your action server -->
+    <node name="check_distance_action_server" pkg="basics_exam" type="check_distance_action.py" />
+
+    <!-- Launch your main program -->
+    <node name="main_program" pkg="basics_exam" type="main_program.py" output="screen" />
+
+    <!-- Add other nodes or parameters if needed -->
+</launch>

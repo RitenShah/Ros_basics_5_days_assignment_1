@@ -1,0 +1,9 @@
+<launch>
+  <include file="$(find unit_6_services)/launch/start_bb8_move_custom_service_server.launch"/>
+  <node pkg ="unit_6_services"
+        type="call_bb8_move_custom_service_server.py"
+        name="script"
+        output="screen">
+  </node>
+
+</launch>

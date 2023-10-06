@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg ="actions_quiz"
+        type="ardrone_takeoff_land.py"
+        name="script"
+        output="screen">
+  </node>
+
+</launch>

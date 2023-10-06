@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="basics_exam" type="square_motion.py" name="drone_takeoff_node"  output="screen">
+  </node>
+</launch>

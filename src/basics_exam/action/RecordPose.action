@@ -1,0 +1,4 @@
+---
+# Result message definition
+geometry_msgs/Pose[] poses
+---

@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="basics_exam" type="distance_motion_service.py" name="service_server"  output="screen">
+  </node>
+</launch>

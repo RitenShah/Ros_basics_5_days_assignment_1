@@ -1,0 +1,5 @@
+<launch>
+  <!-- Launch file for my_action_ex_8_6 -->
+  <node pkg="my_action_ex_8_6" type="ardrone_action_client.py" name="my_action_ex_8_6" output="screen">
+  </node>
+</launch>
